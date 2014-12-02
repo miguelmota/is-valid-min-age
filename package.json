@@ -1,0 +1,30 @@
+{
+  "name": "is-valid-min-age",
+  "version": "0.0.1",
+  "description": "Validate minimum age",
+  "main": "is-valid-min-age.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/is-valid-min-age"
+  },
+  "keywords": [
+    "validate",
+    "validator",
+    "age"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/is-valid-min-age/issues"
+  },
+  "homepage": "https://github.com/miguelmota/is-valid-min-age",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
