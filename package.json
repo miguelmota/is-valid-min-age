@@ -1,7 +1,7 @@
 {
   "name": "is-valid-min-age",
-  "version": "0.0.1",
-  "description": "Validate minimum age",
+  "version": "0.0.2",
+  "description": "Validate that age is above a minimum",
   "main": "is-valid-min-age.js",
   "directories": {
     "test": "test"
@@ -18,7 +18,7 @@
     "validator",
     "age"
   ],
-  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "author": "Miguel Mota <hello@miguelmota.com> (https://www.miguelmota.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/miguelmota/is-valid-min-age/issues"

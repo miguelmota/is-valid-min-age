@@ -1,21 +1,31 @@
 # is-valid-min-age
 
-Validate minimum age
+> Validate that age is above a minimum
 
-# Install
+## Install
 
 ```bash
 npm install is-valid-min-age
 ```
 
-# Usage
+## Usage
 
 ```javascript
-var isValidMinAge = require('is-valid-min-age');
+const isValidMaxAge = require('is-valid-max-age');
 
-isValidMinAge(new Date(1991, 08, 21), 18) // true
-isValidMinAge(new Date(2004, 08, 21), 18) // false
+console.log(isValidMaxAge(new Date(1999, 02, 21), 18)); // true
+console.log(isValidMaxAge(new Date(2006, 05, 14), 18)); // false
 ```
+
+## Test
+
+```bash
+npm test
+```
+
+## Resources
+
+Use [is-valid-max-age](https://github.com/miguelmota/is-valid-max-age) to validate that age is below a maximum.
 
 # License
 
