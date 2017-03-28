@@ -11,10 +11,10 @@ npm install is-valid-min-age
 ## Usage
 
 ```javascript
-const isValidMaxAge = require('is-valid-max-age');
+const isValidMinAge = require('is-valid-max-age');
 
-console.log(isValidMaxAge(new Date(1999, 02, 21), 18)); // true
-console.log(isValidMaxAge(new Date(2006, 05, 14), 18)); // false
+console.log(isValidMinAge(new Date(1999, 02, 21), 18)); // true
+console.log(isValidMinAge(new Date(2006, 05, 14), 18)); // false
 ```
 
 ## Test
